@@ -24,3 +24,7 @@ model User {
   email_verification_token String?
   createdAt                DateTime  @default(now())
 }
+
+// npm i prisma @prisma/client
+// npx prisma init
+// npx prisma migrate --name <TABLE_NAME> 
